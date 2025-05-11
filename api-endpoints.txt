@@ -1,0 +1,31 @@
+Authentication:
+POST /api/auth/login
+POST /api/auth/refresh-token
+
+Projects:
+GET /api/projects
+POST /api/projects
+GET /api/projects/:id
+PUT /api/projects/:id
+DELETE /api/projects/:id
+
+Tasks:
+GET /api/tasks
+POST /api/tasks
+GET /api/tasks/:id
+PUT /api/tasks/:id
+DELETE /api/tasks/:id
+
+Users:
+GET /api/users
+POST /api/users
+GET /api/users/:id
+PUT /api/users/:id
+DELETE /api/users/:id
+
+Companies:
+GET /api/companies
+POST /api/companies
+GET /api/companies/:id
+PUT /api/companies/:id
+DELETE /api/companies/:id

@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+
+# Coverage
+coverage/
+
+# PM2
+pids
+*.pid
+*.seed
+
+# Optional npm cache
+.npm/
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
